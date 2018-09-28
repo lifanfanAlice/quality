@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Thu Sep 27 22:53:10 CST 2018:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.10.2.0 - (1582446): instance a816c00e-0166-1b84-f6d1-00000b085320 
+on database directory /Users/fanfan.li/gitaccount/quality/metastore_db with class loader sun.misc.Launcher$AppClassLoader@18b4aac2 
+Loaded from file:/Users/fanfan.li/.m2/repository/org/apache/derby/derby/10.10.2.0/derby-10.10.2.0.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_181-b13
+user.dir=/Users/fanfan.li/gitaccount/quality
+os.name=Mac OS X
+os.arch=x86_64
+os.version=10.13.4
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
