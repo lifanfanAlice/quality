@@ -31,9 +31,16 @@ public class DriveMain implements Tool {
         String dbName = "ssb";
         String tableName = "customer";
         String sumField = "c_name";
-        String outPath = "/root";
+        String outPath = "/Users/wangcheng/test_quality/1";
         logger.info("[Params] dbName:{}; tableName:{}, sumField:{}, outPath:{}", dbName, tableName, sumField, outPath);
         this.conf.set("sumField", sumField);
+        /*String tmpJars = conf.get("tmpfiles");
+        if (tmpJars == null) {
+            tmpJars = "resources/";
+        } else {
+            tmpJars += "," + "resources/";
+        }
+        */
         Job job = this.setJobConfiguration(this.conf);
         HCatInputFormat.setInput(job,dbName,tableName);
         FileOutputFormat.setOutputPath(job, new Path(outPath));
